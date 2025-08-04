@@ -13,19 +13,20 @@ namespace NET.Domain
         public int UserBId { get; set; }
         public DateTime CreatedAt { get; set; }
         public int TrainingSessionId { get; set; }
-        public JoinRequestStatus Status { get; set; }
+        public string? Status { get; set; }
     }
 
     public class CreateJoinRequestDTO
     {
         public int UserAId { get; set; }
+        public JoinRequestStatus Status { get; set; } = JoinRequestStatus.Pending;
         public int UserBId { get; set; }
         public int TrainingSessionId { get; set; }
-        public JoinRequestStatus Status { get; set; } = JoinRequestStatus.Pending;
     }
 
     public class UpdateJoinRequestDTO
     {
+        
         public JoinRequestStatus? Status { get; set; }
     }
 }

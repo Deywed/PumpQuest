@@ -21,6 +21,7 @@ namespace NET.Mappers
                 CollectedPoints = statistics.CollectedPoints,
                 Height = statistics.Height,
                 Weight = statistics.Weight,
+                PersonalRecords = statistics.PersonalRecords == null ? new List<PRDTO>() : statistics.PersonalRecords.Select(pr => pr.ToDto()).ToList()
             };
         }
 

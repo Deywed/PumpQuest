@@ -21,6 +21,7 @@ namespace NET.Mappers
                 ClientAId = trainingSession.ClientAId,
                 ClientBId = trainingSession.ClientBId,
                 GymId = trainingSession.GymId,
+            
                 WorkoutId = trainingSession.WorkoutId
             };
         }

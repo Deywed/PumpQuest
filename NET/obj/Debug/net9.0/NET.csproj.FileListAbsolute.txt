@@ -116,6 +116,7 @@
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/NET.csproj.CoreCompileInputs.cache
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/NET.MvcApplicationPartsAssemblyInfo.cs
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/NET.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/NET.sourcelink.json
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/scopedcss/bundle/NET.styles.css
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/staticwebassets.build.json
 /Users/macbook/FAKS/GODINA-3/СЕМСЕТАР - 6/SI/Projekat/NET/obj/Debug/net9.0/staticwebassets.development.json

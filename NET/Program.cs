@@ -43,7 +43,13 @@ var builder = WebApplication.CreateBuilder(args);
    if (app.Environment.IsDevelopment())
    {
       app.UseSwagger();
-      app.UseSwaggerUI();}
+      app.UseSwaggerUI();
+   }
+   app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
+});  
    app.UseCors("CORS");
    app.UseHttpsRedirection();
    app.UseAuthorization();

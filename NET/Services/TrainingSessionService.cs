@@ -23,8 +23,7 @@ namespace NET.Services
             var trainingSession = createTrainingSessionDto.ToEntity();
             await _context.TrainingSessions.AddAsync(trainingSession);
             await _context.SaveChangesAsync();
-
-
+            
             return trainingSession.ToDto();
         }
 

@@ -16,7 +16,8 @@ namespace NET.Mappers
                 Id = joinRequest.Id,
                 UserAId = joinRequest.UserAId,
                 UserBId = joinRequest.UserBId,
-                CreatedAt = joinRequest.CreatedAt
+                CreatedAt = joinRequest.CreatedAt,
+                Status = joinRequest.Status.ToString(),
             };
         }
 
@@ -28,8 +29,8 @@ namespace NET.Mappers
                 UserAId = createJoinRequestDto.UserAId,
                 UserBId = createJoinRequestDto.UserBId,
                 TrainingSessionId = createJoinRequestDto.TrainingSessionId,
-                Status = JoinRequestStatus.Pending,
-                CreatedAt = DateTime.UtcNow
+                CreatedAt = DateTime.UtcNow,
+                Status = Enum.Parse<JoinRequestStatus>(createJoinRequestDto.Status.ToString() ?? "Pending"),
             };
         }
         public static void UpdateEntity(this JoinRequest entity, UpdateJoinRequestDTO dto)

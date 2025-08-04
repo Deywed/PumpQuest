@@ -12,6 +12,7 @@ namespace NET.Domain
         public int CollectedPoints { get; set; }
         public double Height { get; set; }
         public double Weight { get; set; }
+        public ICollection<PRDTO> PersonalRecords { get; set; } = new List<PRDTO>();
     }
 
     public class CreateStatisticsDTO

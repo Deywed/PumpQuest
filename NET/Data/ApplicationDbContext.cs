@@ -32,14 +32,14 @@ namespace NET
         {
             base.OnModelCreating(modelBuilder);
 
-            // 1) UserA (pošiljalac) ↔ User.SentJoinRequests
+
             modelBuilder.Entity<JoinRequest>()
                 .HasOne(j => j.UserA)
                 .WithMany(u => u.SentJoinRequests)
                 .HasForeignKey(j => j.UserAId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // 2) UserB (primalac) ↔ User.ReceivedJoinRequests
+
             modelBuilder.Entity<JoinRequest>()
                 .HasOne(j => j.UserB)
                 .WithMany(u => u.ReceivedJoinRequests)
@@ -58,6 +58,18 @@ namespace NET
                 .WithMany(u => u.JoinedSessions)
                 .HasForeignKey(a => a.ClientBId)
                 .OnDelete(DeleteBehavior.Restrict);
+                
+            modelBuilder.Entity<TrainingSession>()
+                .Property(e => e.SessionStatus)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<TrainingSession>()
+                .Property(e => e.RequestStatus)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<JoinRequest>()
+                .Property(e => e.Status)
+                .HasConversion<string>();
         }
     }
 }

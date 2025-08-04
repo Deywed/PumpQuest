@@ -43,7 +43,7 @@ namespace NET.Services
 
         public async Task<IEnumerable<StatisticsDTO>> GetAllStatisticsAsync()
         {
-            var statistics = await _context.Statistics.ToListAsync();
+            var statistics = await _context.Statistics.Include(s => s.PersonalRecords).ToListAsync();
             return statistics.Select(s => s.ToDto());
         }
 
