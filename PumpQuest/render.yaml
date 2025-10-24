@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: backend
+    env: docker
+    plan: free
+    buildCommand: docker build -t backend .
+    startCommand: docker run -d -p 10000:80 backend
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:80
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
