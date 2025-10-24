@@ -1,0 +1,6 @@
+@PumpQuestAPI_HostAddress = http://localhost:5232
+
+GET {{PumpQuestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

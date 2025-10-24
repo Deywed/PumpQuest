@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "BTKHCxeT4yrSOlf2e9fsKGDSxB1J67z7PMdZxOn7jc8=",
+  "Source": "PumpQuestAPI",
+  "BasePath": "_content/PumpQuestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PumpQuestAPI/wwwroot",
+      "Source": "PumpQuestAPI",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "630tw3qxax",
+      "Integrity": "spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf"
+    },
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xh6vv4xhrf",
+      "Integrity": "pZEVZWid4idlVGYcfJS6LM6BcSD0zv1IrFyPOUdI6HU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf"
+    },
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/images/monster-energy-zero-500ml.jpg",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/images/monster-energy-zero-500ml#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ew53tj2l3r",
+      "Integrity": "YvYj8ZYW+oGg6OiCipdpznqY4X6+suqKRx0alElfb6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/images/monster-energy-zero-500ml.jpg"
+    },
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9axbm3d4l2",
+      "Integrity": "QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf"
+    },
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9axbm3d4l2",
+      "Integrity": "QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf"
+    },
+    {
+      "Identity": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
+      "SourceId": "PumpQuestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/",
+      "BasePath": "_content/PumpQuestAPI",
+      "RelativePath": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9axbm3d4l2",
+      "Integrity": "QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.630tw3qxax.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "630tw3qxax"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pZEVZWid4idlVGYcfJS6LM6BcSD0zv1IrFyPOUdI6HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pZEVZWid4idlVGYcfJS6LM6BcSD0zv1IrFyPOUdI6HU="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.xh6vv4xhrf.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pZEVZWid4idlVGYcfJS6LM6BcSD0zv1IrFyPOUdI6HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xh6vv4xhrf"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pZEVZWid4idlVGYcfJS6LM6BcSD0zv1IrFyPOUdI6HU="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/images/monster-energy-zero-500ml.ew53tj2l3r.jpg",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/images/monster-energy-zero-500ml.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YvYj8ZYW+oGg6OiCipdpznqY4X6+suqKRx0alElfb6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Oct 2025 17:24:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ew53tj2l3r"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/images/monster-energy-zero-500ml.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YvYj8ZYW+oGg6OiCipdpznqY4X6+suqKRx0alElfb6M="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/images/monster-energy-zero-500ml.jpg",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/images/monster-energy-zero-500ml.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YvYj8ZYW+oGg6OiCipdpznqY4X6+suqKRx0alElfb6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Oct 2025 17:24:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YvYj8ZYW+oGg6OiCipdpznqY4X6+suqKRx0alElfb6M="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.9axbm3d4l2.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9axbm3d4l2"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.9axbm3d4l2.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9axbm3d4l2"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.9axbm3d4l2.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9axbm3d4l2"
+        },
+        {
+          "Name": "label",
+          "Value": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    },
+    {
+      "Route": "rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
+      "AssetFile": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 00:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ9G61iPGFVSf6i4V/geBALfM0gzlbPv4kmCHm5aTIY="
+        }
+      ]
+    }
+  ]
+}
