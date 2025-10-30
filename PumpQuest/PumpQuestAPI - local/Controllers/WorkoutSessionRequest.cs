@@ -79,7 +79,7 @@ namespace PumpQuestAPI.Controllers
             if (session != null)
             {
                 session.BuddyUid = request.SenderUid;
-                await _hubContext.Clients.Group($"user-{request.SenderUid}") .SendAsync("", session.Id);
+                // await _hubContext.Clients.Group($"user-{request.SenderUid}") .SendAsync("ReceiveRequestSent", session.Id);
                 await _context.SaveChangesAsync();
             }
             await _context.SaveChangesAsync();
@@ -99,10 +99,8 @@ namespace PumpQuestAPI.Controllers
         [HttpPost("TestNavigate/{userUid}")]
         public async Task<IActionResult> TestNavigate(string userUid)
         {
-            // Id sesije koju šaljemo za test
             int testSessionId = 999;
 
-            // Šalje SignalR event korisniku
             await _hubContext.Clients.Group($"user-{userUid}")
                                     .SendAsync("NavigateToWorkout", testSessionId);
 

@@ -56,7 +56,6 @@ namespace PumpQuestAPI.Services
         return null!;
     }
 
-            // 👇 Ako user nema statistike, kreiraj ih
             if (user.Statistics == null)
             {
                 user.Statistics = new UserStatistics

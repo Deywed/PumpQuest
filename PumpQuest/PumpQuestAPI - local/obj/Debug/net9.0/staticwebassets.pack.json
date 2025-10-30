@@ -1,27 +1,35 @@
 {
   "Files": [
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf",
       "PackagePath": "staticwebassets/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_100.pdf"
     },
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf",
+      "PackagePath": "staticwebassets/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf"
+    },
+    {
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf",
+      "PackagePath": "staticwebassets/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf"
+    },
+    {
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf",
       "PackagePath": "staticwebassets/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf"
     },
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/images/monster-energy-zero-500ml.jpg",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/images/monster-energy-zero-500ml.jpg",
       "PackagePath": "staticwebassets/rewards/images/monster-energy-zero-500ml.jpg"
     },
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf",
       "PackagePath": "staticwebassets/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_100.pdf"
     },
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf",
       "PackagePath": "staticwebassets/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_200.pdf"
     },
     {
-      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
+      "Id": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/wwwroot/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf",
       "PackagePath": "staticwebassets/rewards/jbjeFFXIJVOOOEDDuJx3xBoT9xi1_Reward_300.pdf"
     },
     {

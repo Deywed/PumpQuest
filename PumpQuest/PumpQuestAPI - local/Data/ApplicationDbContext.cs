@@ -14,7 +14,6 @@ namespace PumpQuestAPI.Data
         { }
         public DbSet<Workout> Workouts { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
-        public DbSet<Coach> Coaches { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Gym> Gyms { get; set; }
         public DbSet<WorkoutExercise> WorkoutExercises { get; set; }

@@ -78,5 +78,11 @@ namespace PumpQuestAPI.Controllers
             var updatedSession = await _workoutSessionService.MarkSessionAsDoneAsync(id);
             return Ok(updatedSession);
         }
+        [HttpGet("GetSessionHistoryByUserId/{uid}")]
+        public async Task<IActionResult> GetSessionHistoryByUserId(string uid)
+        {
+            var sessions = await _workoutSessionService.GetSessionHistoryByUserIdAsync(uid);
+            return Ok(sessions);
+        }
     }
 }

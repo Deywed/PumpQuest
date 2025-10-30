@@ -30,7 +30,6 @@ namespace PumpQuestAPI.Models
         [JsonIgnore]
         public Gym? Gym { get; set; }
 
-        [JsonIgnore]
         public List<Workout>? CreatedWorkouts { get; set; }
 
     }

@@ -29,7 +29,6 @@ namespace PumpQuestAPI.Services
 
     public async Task NotifyUsers(int sessionId, string user1Uid, string user2Uid)
         {
-        Console.WriteLine($"Notifying users {user1Uid} and {user2Uid} about workout session {sessionId}");
         await _hubContext.Clients.Group($"user-{user1Uid}")
             .SendAsync("NavigateToWorkout", sessionId);
 

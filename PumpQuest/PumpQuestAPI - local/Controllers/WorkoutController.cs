@@ -86,5 +86,12 @@ public async Task<IActionResult> CreateWorkout([FromBody] CreateWorkoutDto dto)
 
             return Ok(workout);
         }
+
+        [HttpGet("GetWorkoutsByUserId/{userId}")]
+        public async Task<IActionResult> GetWorkoutsByUserId(string userId)
+        {
+            var workouts = await _workoutService.GetWorkoutsByUserIdAsync(userId);
+            return Ok(workouts);
+        }
     }
 }

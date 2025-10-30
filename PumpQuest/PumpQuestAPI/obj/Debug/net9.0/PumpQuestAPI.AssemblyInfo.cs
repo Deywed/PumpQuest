@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PumpQuestAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ce9247e7ca4cff752c65661a2128aeb30c9b56f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fedc3f4d72f327bfaec01ccc0d82feee40b2efba")]
 [assembly: System.Reflection.AssemblyProductAttribute("PumpQuestAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PumpQuestAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

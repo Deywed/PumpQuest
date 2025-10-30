@@ -15,5 +15,6 @@ namespace PumpQuestAPI.Services.Interfaces
         Task<WorkoutDTO> UpdateWorkoutAsync(int id, UpdateWorkoutDTO workout);
         Task<bool> DeleteWorkoutAsync(int id);
         Task<WorkoutDTO> GetWorkoutBySessionIdAsync(int sessionId);
+        Task<IEnumerable<Workout>> GetWorkoutsByUserIdAsync(string userId);
     }
 }

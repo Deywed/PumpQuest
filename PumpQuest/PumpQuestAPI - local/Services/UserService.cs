@@ -80,6 +80,33 @@ namespace PumpQuestAPI.Services
             return true;
         }
 
+        public Task<List<TrainerDTO>> GetAllTrainersWithWorkoutsAsync()
+{
+    return _context.Users
+        .Where(u => u.Role == UserRole.Trainer)
+        .Select(u => new TrainerDTO {
+            Uid = u.Uid,
+            Username = u.Username,
+            Email = u.Email,
+            CreatedWorkouts = u.CreatedWorkouts
+                .Select(w => new WorkoutDTO {
+                    Id = w.Id,
+                    Name = w.Name,
+                    Description = w.Description,
+                    Xp = w.Xp,
+                    Difficulty = w.Difficulty,
+                    Exercises = w.WorkoutExercises
+                        .Select(we => new WorkoutExerciseDTO {
+                            ExerciseId = we.ExerciseId,
+                            Sets = we.Sets,
+                            Reps = we.Reps
+                }).ToList()
+        })  .ToList()
+        })
+        .ToListAsync();
+}
+
+
         public Task<List<User>> GetAllUsersAsync()
         {
             return _context.Users.Include(u => u.Statistics).ToListAsync();

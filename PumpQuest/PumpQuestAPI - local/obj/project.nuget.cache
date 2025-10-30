@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NNhFSUWYh3g=",
+  "dgSpecHash": "2B2O00e9EaM=",
   "success": true,
-  "projectFilePath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/PumpQuestAPI.csproj",
+  "projectFilePath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/PumpQuestAPI.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/macbook/.nuget/packages/hangfire/1.8.21/hangfire.1.8.21.nupkg.sha512",

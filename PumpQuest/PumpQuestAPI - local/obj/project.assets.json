@@ -8652,11 +8652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/PumpQuestAPI.csproj",
+      "projectUniqueName": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/PumpQuestAPI.csproj",
       "projectName": "PumpQuestAPI",
-      "projectPath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/PumpQuestAPI.csproj",
+      "projectPath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/PumpQuestAPI.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI/obj/",
+      "outputPath": "/Users/macbook/dev/Projekat/PumpQuest/PumpQuestAPI - local/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.nuget/NuGet/NuGet.Config"

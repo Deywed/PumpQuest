@@ -19,5 +19,6 @@ namespace PumpQuestAPI.Services.Interfaces
         Task<List<User>> GetUsersByRoleAsync(UserRole role);
         Task<Workout> CreateWorkoutAsync(CreateWorkoutDto dto);
         Task<User> UpdateUserStatisticsAsync(string uid, UserStatistics statistics);
+        Task<List<TrainerDTO>> GetAllTrainersWithWorkoutsAsync();
     }
 }

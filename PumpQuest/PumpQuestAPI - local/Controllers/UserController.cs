@@ -81,5 +81,12 @@ namespace PumpQuestAPI.Controllers
                 return NotFound();
             return Ok();
         }
+
+        [HttpGet("GetAllTrainersWithWorkouts")]
+        public async Task<IActionResult> GetAllTrainersWithWorkouts()
+        {
+            var trainers = await _userService.GetAllTrainersWithWorkoutsAsync();
+            return Ok(trainers);
+        }
     }
 }

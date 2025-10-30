@@ -12,6 +12,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"154199"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022spFEX/VEShpP3kqeM177AJOTSI0irnsggOtakd99XOI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Oct 2025 20:17:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rewards\2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"154616"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 01:24:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.q3kkzqaril.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rewards\2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q3kkzqaril"},{"Name":"integrity","Value":"sha256-xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk="},{"Name":"label","Value":"_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_200.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"154616"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 01:24:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rewards\2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"154616"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 01:24:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.q3kkzqaril.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rewards\2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q3kkzqaril"},{"Name":"integrity","Value":"sha256-xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk="},{"Name":"label","Value":"_content/PumpQuestAPI/rewards/2heMIRFZ1kNaeDqta9QNAESNJw22_Reward_300.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"154616"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xq1B0OjS8i86YoAfCqIFyXu9bow56rviwhP/hctX0hk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 01:24:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PumpQuestAPI/rewards/dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rewards\dHbW4MHQZsMSkEpkIMxVyBCC3043_Reward_100.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

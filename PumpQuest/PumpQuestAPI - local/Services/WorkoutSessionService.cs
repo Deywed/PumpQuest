@@ -70,19 +70,18 @@ namespace PumpQuestAPI.Services
         }
 
         public async Task<WorkoutSession> GetWorkoutSessionByUserIdAsync(string uid)
-{
-    // Sada tražimo sesiju koja pripada korisniku I NIJE završena
-    var session = await _context.WorkoutSessions
-                              .Include(e => e.Creator)
-                              .FirstOrDefaultAsync(ws => ws.CreatorUid == uid && ws.IsDone == false);
-    
-    if (session == null)
-    {
-        return null;
-    }
+        {
+            var session = await _context.WorkoutSessions
+                                    .Include(e => e.Creator)
+                                    .FirstOrDefaultAsync(ws => ws.CreatorUid == uid && ws.IsDone == false);
+            
+            if (session == null)
+            {
+                return null!;
+            }
 
-    return session;
-}
+            return session;
+        }
 
         public async Task<WorkoutSession> UpdateWorkoutSessionAsync(WorkoutSession session)
         {
@@ -104,9 +103,19 @@ namespace PumpQuestAPI.Services
             var session = await _context.WorkoutSessions.FindAsync(id);
             if (session == null) throw new Exception("Workout session not found");
             session.IsDone = true;
+            session.EndTime = DateTime.UtcNow;
             _context.WorkoutSessions.Update(session);
             await _context.SaveChangesAsync();
             return session;
+        }
+
+        public async Task<List<WorkoutSession>> GetSessionHistoryByUserIdAsync(string uid)
+        {
+            var sessions = await _context.WorkoutSessions
+                .Include(ws => ws.Workout)
+                .Where(ws => (ws.CreatorUid == uid || ws.BuddyUid == uid) && ws.IsDone == true)
+                .ToListAsync();
+            return sessions;
         }
     }
 }

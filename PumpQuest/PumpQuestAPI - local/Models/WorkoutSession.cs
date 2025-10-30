@@ -16,6 +16,7 @@ namespace PumpQuestAPI.Models
         public int WorkoutId { get; set; }
         public Workout? Workout { get; set; }
         public DateTime Date { get; set; } = DateTime.UtcNow;
+        public DateTime EndTime { get; set; } = DateTime.UtcNow;
         public bool isAlone => string.IsNullOrEmpty(BuddyUid);
         public int GymId { get; set; }
         [JsonIgnore]

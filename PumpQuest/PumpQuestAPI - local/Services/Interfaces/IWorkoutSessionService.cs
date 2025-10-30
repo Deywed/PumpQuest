@@ -17,5 +17,6 @@ namespace PumpQuestAPI.Services.Interfaces
         Task<WorkoutSession> GetWorkoutSessionByUserIdAsync(string uid);
         Task<bool> DeleteWorkoutSessionAsync(int id);
         Task<WorkoutSession> MarkSessionAsDoneAsync(int id);
+        Task<List<WorkoutSession>> GetSessionHistoryByUserIdAsync(string uid);
     }
 }
